@@ -93,7 +93,7 @@ These values are based on the resistor network used during development. Your har
 Include the header:
 
 ```cpp
-#include <PhoenixJack_button_resistor_network.h>
+#include <button_resistor_network.h>
 ```
 
 Set up the expected analog values:
