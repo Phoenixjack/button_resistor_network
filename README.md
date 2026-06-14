@@ -186,6 +186,16 @@ Possible future improvements:
 * add `#pragma once` or include guards
 * split into `.h` and `.cpp` if the helper grows
 
+## Background / Attribution
+
+This helper was originally written for analog resistor-ladder button inputs like those commonly found on Arduino LCD keypad shields.
+
+It was adapted from concepts used in [`AnalogButtons`](https://github.com/rlogiacco/AnalogButtons), then modified for this project’s button IDs, action states, and non-blocking polling behavior.
+
+Example hardware style:
+
+- HiLetgo LCD1602 keypad shield / similar Arduino LCD keypad shields
+
 ## License
 
 This project is released under the MIT License.
