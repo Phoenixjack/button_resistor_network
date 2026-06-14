@@ -1,4 +1,4 @@
-#include "PhoenixJack_button_resistor_network.h"
+#include "button_resistor_network.h"
 
 void setup() {
   Serial.begin(9600);
